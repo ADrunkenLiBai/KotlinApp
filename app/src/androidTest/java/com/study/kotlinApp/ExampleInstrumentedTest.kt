@@ -1,4 +1,4 @@
-package com.lzq.kotlinApp
+package com.study.kotlinApp
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

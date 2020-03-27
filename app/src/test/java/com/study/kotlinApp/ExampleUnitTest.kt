@@ -1,4 +1,4 @@
-package com.lzq.kotlinApp
+package com.study.kotlinApp
 
 import org.junit.Test
 
