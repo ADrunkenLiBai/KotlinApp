@@ -1,4 +1,4 @@
-package com.lzq.kotlindemo
+package com.lzq.kotlinApp
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,7 +6,7 @@ import android.util.Log
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
-import com.lzq.kotlindemo.databinding.ActivityMainBinding
+import com.lzq.kotlinApp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

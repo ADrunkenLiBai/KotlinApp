@@ -1,11 +1,11 @@
-package com.lzq.kotlindemo
+package com.lzq.kotlinApp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import androidx.databinding.DataBindingUtil
-import com.lzq.kotlindemo.databinding.ActivitySecondBinding
+import com.lzq.kotlinApp.databinding.ActivitySecondBinding
 
 class SecondActivity : AppCompatActivity() {
 
