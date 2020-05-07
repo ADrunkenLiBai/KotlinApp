@@ -21,4 +21,10 @@ class ExampleInstrumentedTest {
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
         assertEquals("com.lzq.kotlindemo", appContext.packageName)
     }
+   /* fun toDoMap(){
+        hashMapOf()
+        for (int i = 0; i<10;i++){
+
+        }
+    }*/
 }

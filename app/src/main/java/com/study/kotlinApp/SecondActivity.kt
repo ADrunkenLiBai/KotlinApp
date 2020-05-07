@@ -5,7 +5,8 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import androidx.databinding.DataBindingUtil
-import com.lzq.kotlinApp.databinding.ActivitySecondBinding
+import com.study.kotlinApp.databinding.ActivitySecondBinding
+
 
 class SecondActivity : AppCompatActivity() {
 
@@ -17,6 +18,8 @@ class SecondActivity : AppCompatActivity() {
         secondBinding.viewClick = View.OnClickListener {
             when (it.id) {
                 R.id.my_tv -> {
+                    val toast = Toast(this)
+                    toast.view
                     val makeText = Toast.makeText(this, "This is kotlin", Toast.LENGTH_LONG)
                     makeText.show()
                 }

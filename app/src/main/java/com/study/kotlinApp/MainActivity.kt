@@ -4,10 +4,10 @@ import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.View
+import androidx.annotation.IntegerRes
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
-import com.lzq.kotlinApp.databinding.ActivityMainBinding
-
+import com.study.kotlinApp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         }
         //        setContentView(R.layout.activity_main)
         data class Person(var name: String, var age: Int)
+
         val personList: MutableList<Person> = mutableListOf()
         personList.add(Person("wql", 29))
         personList.add(Person("bfj", 29))
@@ -62,6 +63,7 @@ class MainActivity : AppCompatActivity() {
         } else {
             null
         }
+
     }
 
     private fun sum2(a: Int, b: Int) = a + b
